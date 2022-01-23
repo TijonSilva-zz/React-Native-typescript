@@ -6,7 +6,6 @@ const SignIn = () => {
     <SafeAreaView>
       <Text>SignIn</Text>
     </SafeAreaView>
-  );
-};
-
+  )
+}
 export default SignIn;
