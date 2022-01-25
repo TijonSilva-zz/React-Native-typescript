@@ -1,11 +1,12 @@
 import React from 'react';
-import {SafeAreaView, Text} from 'react-native';
+import {View, Text} from 'react-native';
+import Input from '../../Components/input';
 
 const SignIn = () => {
   return (
-    <SafeAreaView>
-      <Text>SignIn</Text>
-    </SafeAreaView>
+    <View>
+      <Input />
+    </View>
   )
 }
 export default SignIn;
