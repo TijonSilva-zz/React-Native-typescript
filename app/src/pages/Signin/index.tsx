@@ -5,7 +5,8 @@ import Input from '../../Components/input';
 const SignIn = () => {
   return (
     <View>
-      <Input />
+      <Input placeholder="E-mail" />
+      <Input placeholder="Password" />
     </View>
   )
 }
