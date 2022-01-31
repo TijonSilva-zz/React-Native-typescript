@@ -1,13 +1,14 @@
 import React from 'react';
-import {View, Text} from 'react-native';
 import Input from '../../Components/input';
+
+import{Container} from './styles'
 
 const SignIn = () => {
   return (
-    <View>
+    <Container>
       <Input placeholder="E-mail" />
       <Input placeholder="Password" />
-    </View>
+    </Container>
   )
 }
 export default SignIn;
