@@ -1,15 +1,13 @@
 import React from 'react';
+import { Button } from 'react-native';
 import Input from '../../Components/input';
-
-import{Container, Title} from './styles'
 
 const SignIn = () => {
   return (
-    <Container>
-      <Title>Faça o Login e seja Bem-vindo</Title>
+    <Button>
       <Input placeholder="E-mail" />
       <Input placeholder="Password" />
-    </Container>
+    </Button>
   )
 }
 export default SignIn;
